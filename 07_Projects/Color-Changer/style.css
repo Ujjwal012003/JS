@@ -1,0 +1,55 @@
+/* Basic Styling */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    transition: background-color 0.5s ease-in-out;
+    background-color: #212121;
+    color: white;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: transform 0.2s ease-in-out;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+/* Button Colors */
+.color-btn:nth-child(1) { background-color: #FF5733; color: white; }
+.color-btn:nth-child(2) { background-color: #33FF57; color: black; }
+.color-btn:nth-child(3) { background-color: #3357FF; color: white; }
+.color-btn:nth-child(4) { background-color: #F4D03F; color: black; }
+
+#random-btn {
+    background-color: #fff;
+    color: black;
+    border: 2px solid black;
+}

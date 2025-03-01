@@ -1,0 +1,44 @@
+/* General Styling */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #1e1e1e;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Clock Container */
+.clock-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+}
+
+/* Clock Design */
+.clock {
+    font-size: 4rem;
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+/* AM/PM Styling */
+#ampm {
+    font-size: 2rem;
+    margin-left: 10px;
+    color: #ffcc00;
+}
+
+/* Smooth Transition */
+span {
+    display: inline-block;
+    min-width: 50px;
+    text-align: center;
+    transition: opacity 0.3s ease-in-out;
+}

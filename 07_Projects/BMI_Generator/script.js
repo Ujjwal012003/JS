@@ -26,7 +26,7 @@ form.addEventListener('submit', function (e) {
     if (bmi < 18.5) {
         category = "Underweight";
         color = "#f39c12"; // Yellow
-    } else if (bmi >= 18.5 && bmi <= 24.9) {
+    } else if (bmi >= 18.5 && bmi <= 24.90) {
         category = "Normal Weight";
         color = "#2ecc71"; // Green
     } else if (bmi >= 25 && bmi <= 29.9) {
